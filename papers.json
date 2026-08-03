@@ -1,0 +1,38 @@
+[
+  {
+    "id": "sample-001",
+    "title": "SAMPLE ENTRY \u2014 replace me: Engaging Ministries of Health in National Data Policy",
+    "authors": "Doe, J. & Kim, S.",
+    "year": 2023,
+    "domain": "stakeholder",
+    "type": "pdf",
+    "tags": ["policy", "government", "coordination"],
+    "description": "Placeholder description. Summarize in 1-2 sentences why this paper is relevant to the proposal (methods, findings, or framework it offers).",
+    "link": "papers/sample-001.pdf",
+    "source_note": "Replace 'link' with a relative path (papers/filename.pdf) if you upload the file into the /papers folder, OR a direct URL (Google Drive, Dropbox, journal page) if you're linking out instead."
+  },
+  {
+    "id": "sample-002",
+    "title": "SAMPLE ENTRY \u2014 replace me: Frameworks for Cross-Border Health Data Sharing",
+    "authors": "Mwangi, A. et al.",
+    "year": 2022,
+    "domain": "data_stewardship",
+    "type": "link",
+    "tags": ["data governance", "interoperability", "privacy"],
+    "description": "Placeholder description.",
+    "link": "https://example.org/paper-link",
+    "source_note": "External link example."
+  },
+  {
+    "id": "sample-003",
+    "title": "SAMPLE ENTRY \u2014 replace me: Integrating DHIS2 Facility Data with National Systems",
+    "authors": "Nakamura, R.",
+    "year": 2024,
+    "domain": "facility_integration",
+    "type": "pdf",
+    "tags": ["DHIS2", "facility data", "interoperability"],
+    "description": "Placeholder description.",
+    "link": "papers/sample-003.pdf",
+    "source_note": "Delete these three sample entries once you add real ones."
+  }
+]

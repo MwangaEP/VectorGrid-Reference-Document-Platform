@@ -1,0 +1,398 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Coefficient Giving \u2014 Proposal Reference Library</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Source+Serif+4:opsz,wght@8..60,400;8..60,600;8..60,700&family=IBM+Plex+Sans:wght@400;500;600&family=IBM+Plex+Mono:wght@400;500&display=swap" rel="stylesheet">
+<style>
+  :root{
+    --paper:#F6F5F0;
+    --paper-raised:#FFFFFF;
+    --ink:#1C2321;
+    --ink-soft:#5B6560;
+    --rule:#D9D6CC;
+    --stakeholder:#3B4C8C;
+    --stakeholder-tint:#E8EAF3;
+    --data:#157A6E;
+    --data-tint:#E3F1EE;
+    --facility:#A66A1E;
+    --facility-tint:#F4E9DA;
+  }
+  *{box-sizing:border-box;}
+  html{scroll-behavior:smooth;}
+  body{
+    margin:0;
+    background:var(--paper);
+    color:var(--ink);
+    font-family:'IBM Plex Sans',sans-serif;
+    -webkit-font-smoothing:antialiased;
+  }
+  a{color:inherit;}
+
+  header{
+    padding:56px 8vw 40px;
+    border-bottom:1px solid var(--rule);
+    background:
+      repeating-linear-gradient(90deg, transparent, transparent 39px, rgba(28,35,33,0.035) 39px, rgba(28,35,33,0.035) 40px);
+  }
+  .eyebrow{
+    font-family:'IBM Plex Mono',monospace;
+    font-size:12px;
+    letter-spacing:.14em;
+    text-transform:uppercase;
+    color:var(--ink-soft);
+    margin:0 0 14px;
+  }
+  h1{
+    font-family:'Source Serif 4',serif;
+    font-weight:700;
+    font-size:clamp(30px,4vw,46px);
+    line-height:1.08;
+    margin:0 0 16px;
+    max-width:16ch;
+  }
+  header p.sub{
+    font-size:16px;
+    color:var(--ink-soft);
+    max-width:60ch;
+    line-height:1.6;
+    margin:0 0 28px;
+  }
+
+  .toolbar{
+    display:flex;
+    flex-wrap:wrap;
+    gap:12px;
+    align-items:center;
+  }
+  #search{
+    flex:1 1 280px;
+    padding:12px 16px;
+    border:1px solid var(--rule);
+    border-radius:2px;
+    background:var(--paper-raised);
+    font-family:'IBM Plex Sans',sans-serif;
+    font-size:14px;
+    color:var(--ink);
+  }
+  #search:focus{outline:2px solid var(--ink);outline-offset:1px;}
+
+  .stat{
+    font-family:'IBM Plex Mono',monospace;
+    font-size:12px;
+    color:var(--ink-soft);
+    white-space:nowrap;
+  }
+
+  nav.tabs{
+    display:flex;
+    gap:2px;
+    padding:0 8vw;
+    margin-top:36px;
+  }
+  .tab{
+    font-family:'IBM Plex Mono',monospace;
+    font-size:13px;
+    letter-spacing:.03em;
+    padding:12px 20px 10px;
+    background:var(--paper);
+    border:1px solid var(--rule);
+    border-bottom:none;
+    border-radius:6px 6px 0 0;
+    cursor:pointer;
+    color:var(--ink-soft);
+    position:relative;
+    top:1px;
+  }
+  .tab[data-domain="stakeholder"].active{background:var(--stakeholder);color:#fff;border-color:var(--stakeholder);}
+  .tab[data-domain="data_stewardship"].active{background:var(--data);color:#fff;border-color:var(--data);}
+  .tab[data-domain="facility_integration"].active{background:var(--facility);color:#fff;border-color:var(--facility);}
+  .tab[data-domain="all"].active{background:var(--ink);color:#fff;border-color:var(--ink);}
+  .tab .count{opacity:.7;margin-left:6px;}
+
+  main{
+    padding:32px 8vw 80px;
+    border-top:1px solid var(--rule);
+  }
+
+  .domain-block{margin-bottom:12px;}
+  .domain-heading{
+    display:flex;
+    align-items:baseline;
+    gap:10px;
+    margin:40px 0 18px;
+  }
+  .domain-heading:first-child{margin-top:0;}
+  .domain-heading h2{
+    font-family:'Source Serif 4',serif;
+    font-size:22px;
+    margin:0;
+  }
+  .domain-heading .n{
+    font-family:'IBM Plex Mono',monospace;
+    font-size:12px;
+    color:var(--ink-soft);
+  }
+  .domain-heading .bar{
+    flex:1;
+    height:1px;
+    background:var(--rule);
+  }
+
+  .grid{
+    display:grid;
+    grid-template-columns:repeat(auto-fill,minmax(300px,1fr));
+    gap:16px;
+  }
+
+  .card{
+    background:var(--paper-raised);
+    border:1px solid var(--rule);
+    border-left:4px solid var(--ink);
+    border-radius:2px;
+    padding:18px 20px;
+    display:flex;
+    flex-direction:column;
+    gap:10px;
+    transition:transform .12s ease, box-shadow .12s ease;
+  }
+  .card:hover{
+    transform:translateY(-2px);
+    box-shadow:0 6px 18px rgba(28,35,33,0.08);
+  }
+  .card[data-domain="stakeholder"]{border-left-color:var(--stakeholder);}
+  .card[data-domain="data_stewardship"]{border-left-color:var(--data);}
+  .card[data-domain="facility_integration"]{border-left-color:var(--facility);}
+
+  .card-top{
+    display:flex;
+    justify-content:space-between;
+    align-items:flex-start;
+    gap:10px;
+  }
+  .card h3{
+    font-family:'Source Serif 4',serif;
+    font-size:17px;
+    line-height:1.35;
+    margin:0;
+  }
+  .badge{
+    flex-shrink:0;
+    font-family:'IBM Plex Mono',monospace;
+    font-size:10px;
+    letter-spacing:.06em;
+    text-transform:uppercase;
+    padding:3px 7px;
+    border-radius:20px;
+    white-space:nowrap;
+  }
+  .card[data-domain="stakeholder"] .badge{background:var(--stakeholder-tint);color:var(--stakeholder);}
+  .card[data-domain="data_stewardship"] .badge{background:var(--data-tint);color:var(--data);}
+  .card[data-domain="facility_integration"] .badge{background:var(--facility-tint);color:var(--facility);}
+
+  .meta{
+    font-family:'IBM Plex Mono',monospace;
+    font-size:11.5px;
+    color:var(--ink-soft);
+  }
+  .desc{
+    font-size:13.5px;
+    line-height:1.55;
+    color:#3A413E;
+    flex-grow:1;
+  }
+  .tags{
+    display:flex;
+    flex-wrap:wrap;
+    gap:6px;
+  }
+  .tag{
+    font-family:'IBM Plex Mono',monospace;
+    font-size:10.5px;
+    color:var(--ink-soft);
+    border:1px solid var(--rule);
+    border-radius:20px;
+    padding:2px 8px;
+  }
+  .card-bottom{
+    display:flex;
+    justify-content:flex-end;
+    margin-top:4px;
+  }
+  .dl{
+    font-family:'IBM Plex Mono',monospace;
+    font-size:12px;
+    font-weight:500;
+    text-decoration:none;
+    color:var(--ink);
+    border-bottom:1px solid var(--ink);
+    padding-bottom:1px;
+  }
+  .dl:hover{color:var(--stakeholder);border-color:var(--stakeholder);}
+
+  .empty{
+    font-family:'IBM Plex Mono',monospace;
+    font-size:13px;
+    color:var(--ink-soft);
+    padding:40px 0;
+  }
+
+  footer{
+    padding:28px 8vw 50px;
+    font-family:'IBM Plex Mono',monospace;
+    font-size:11.5px;
+    color:var(--ink-soft);
+    border-top:1px solid var(--rule);
+  }
+
+  @media (max-width:640px){
+    header{padding:40px 6vw 28px;}
+    nav.tabs{padding:0 6vw;flex-wrap:wrap;}
+    main{padding:24px 6vw 60px;}
+  }
+</style>
+</head>
+<body>
+
+<header>
+  <p class="eyebrow">Coefficient Giving &nbsp;\u2014&nbsp; Proposal Reference Library</p>
+  <h1>Shared reference documents for the writing team</h1>
+  <p class="sub">A single, always-current link to every paper, brief, and dataset backing the proposal \u2014 organized across the three focus domains. Add a new document by editing <code>papers.json</code>; this page updates automatically, no re-uploading required.</p>
+  <div class="toolbar">
+    <input id="search" type="text" placeholder="Search by title, author, tag, or keyword\u2026" aria-label="Search documents">
+    <span class="stat" id="stat"></span>
+  </div>
+</header>
+
+<nav class="tabs" id="tabs">
+  <div class="tab active" data-domain="all">All <span class="count" id="count-all"></span></div>
+  <div class="tab" data-domain="stakeholder">Stakeholder Engagement &amp; Policy <span class="count" id="count-stakeholder"></span></div>
+  <div class="tab" data-domain="data_stewardship">Data Stewardship &amp; Sharing <span class="count" id="count-data_stewardship"></span></div>
+  <div class="tab" data-domain="facility_integration">Health Facility Data Integration <span class="count" id="count-facility_integration"></span></div>
+</nav>
+
+<main id="main">
+  <p class="empty" id="loading">Loading library\u2026</p>
+</main>
+
+<footer>
+  papers.json is the single source of truth \u2014 see the README in this repo for how to add entries. Last built from data fetched at page load.
+</footer>
+
+<script>
+const DOMAIN_LABELS = {
+  stakeholder: "Stakeholder Engagement & Policy",
+  data_stewardship: "Data Stewardship & Sharing",
+  facility_integration: "Health Facility Data Integration"
+};
+const DOMAIN_ORDER = ["stakeholder", "data_stewardship", "facility_integration"];
+
+let ALL_DOCS = [];
+let activeDomain = "all";
+let query = "";
+
+async function loadData(){
+  const main = document.getElementById('main');
+  try{
+    const res = await fetch('papers.json', {cache:"no-store"});
+    if(!res.ok) throw new Error('HTTP ' + res.status);
+    ALL_DOCS = await res.json();
+    render();
+  }catch(err){
+    main.innerHTML = '<p class="empty">Couldn\u2019t load papers.json (' + err.message + '). Make sure it sits alongside index.html in the same repo.</p>';
+  }
+}
+
+function matchesQuery(doc, q){
+  if(!q) return true;
+  const hay = [doc.title, doc.authors, doc.description, (doc.tags||[]).join(' ')].join(' ').toLowerCase();
+  return hay.includes(q.toLowerCase());
+}
+
+function counts(){
+  const c = {all: ALL_DOCS.length, stakeholder:0, data_stewardship:0, facility_integration:0};
+  ALL_DOCS.forEach(d => { if(c[d.domain] !== undefined) c[d.domain]++; });
+  return c;
+}
+
+function cardHTML(doc){
+  const tags = (doc.tags||[]).map(t => '<span class="tag">' + escapeHTML(t) + '</span>').join('');
+  const typeLabel = (doc.type || 'link').toUpperCase();
+  return `
+    <div class="card" data-domain="${doc.domain}">
+      <div class="card-top">
+        <h3>${escapeHTML(doc.title)}</h3>
+        <span class="badge">${escapeHTML(typeLabel)}</span>
+      </div>
+      <div class="meta">${escapeHTML(doc.authors || '')}${doc.year ? ' \u00b7 ' + doc.year : ''}</div>
+      <div class="desc">${escapeHTML(doc.description || '')}</div>
+      <div class="tags">${tags}</div>
+      <div class="card-bottom">
+        <a class="dl" href="${doc.link}" target="_blank" rel="noopener">Download / view \u2192</a>
+      </div>
+    </div>`;
+}
+
+function escapeHTML(str){
+  return String(str).replace(/[&<>"']/g, m => ({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[m]));
+}
+
+function render(){
+  const main = document.getElementById('main');
+  const c = counts();
+  document.getElementById('count-all').textContent = c.all;
+  document.getElementById('count-stakeholder').textContent = c.stakeholder;
+  document.getElementById('count-data_stewardship').textContent = c.data_stewardship;
+  document.getElementById('count-facility_integration').textContent = c.facility_integration;
+
+  const filtered = ALL_DOCS.filter(d => matchesQuery(d, query));
+  document.getElementById('stat').textContent = filtered.length + ' of ' + ALL_DOCS.length + ' documents shown';
+
+  const domainsToShow = activeDomain === 'all' ? DOMAIN_ORDER : [activeDomain];
+  let html = '';
+  domainsToShow.forEach(domain => {
+    const docs = filtered.filter(d => d.domain === domain);
+    if(docs.length === 0 && activeDomain !== 'all') {
+      html += `<p class="empty">No documents match in this domain yet.</p>`;
+      return;
+    }
+    if(docs.length === 0) return;
+    html += `
+      <div class="domain-block">
+        <div class="domain-heading">
+          <h2>${DOMAIN_LABELS[domain]}</h2>
+          <div class="bar"></div>
+          <span class="n">${docs.length}</span>
+        </div>
+        <div class="grid">${docs.map(cardHTML).join('')}</div>
+      </div>`;
+  });
+
+  if(filtered.length === 0){
+    html = '<p class="empty">No documents match your search.</p>';
+  }
+
+  main.innerHTML = html;
+}
+
+document.getElementById('tabs').addEventListener('click', e => {
+  const tab = e.target.closest('.tab');
+  if(!tab) return;
+  document.querySelectorAll('.tab').forEach(t => t.classList.remove('active'));
+  tab.classList.add('active');
+  activeDomain = tab.dataset.domain;
+  render();
+});
+
+document.getElementById('search').addEventListener('input', e => {
+  query = e.target.value;
+  render();
+});
+
+loadData();
+</script>
+
+</body>
+</html>
