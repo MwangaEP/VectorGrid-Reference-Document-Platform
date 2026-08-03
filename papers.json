@@ -371,5 +371,20 @@
     "description": " ",
     "link": "papers/WHO Digital solutions for malaria surveillance -DHIS2 and NMDR.pdf",
     "source_note": "pdf"
+  },
+
+  {
+    "id": "29",
+    "title": "Country ownership in global health",
+    "authors": "Noor",
+    "year": 2022,
+    "domain": "facility_integration",
+    "type": "pdf",
+    "tags": ["DHIS2", "facility data", "interoperability"],
+    "description": " ",
+    "link": "papers/Noor 2022 - Country ownership in global health.pdf",
+    "source_note": "pdf"
   }
+
+
 ]
