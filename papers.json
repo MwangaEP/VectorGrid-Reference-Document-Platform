@@ -1,36 +1,77 @@
 [
 
   {
-    "id": "sample-001",
+    "id": "01",
     "title": "Community engagement in research in sub-Saharan Africa: approaches, barriers, facilitators, ethical considerations and the role of gender - a systematic review protocol",
     "authors": "Akondeng et al",
     "year": 2022,
     "domain": "stakeholder",
     "type": "pdf",
     "tags": ["policy", "government", "coordination"],
-    "description": "Placeholder description. Summarize in 1-2 sentences why this paper is relevant to the proposal (methods, findings, or framework it offers).",
     "link": "papers/Akodeng et al 2022 Community engagement in research in sub-Saharan Africa_approaches, barriers, facilitators, ethical considerations and the role of gender – a systematic review protocol.pdf",
     "source_note": "Replace 'link' with a relative path (papers/filename.pdf) if you upload the file into the /papers folder, OR a direct URL (Google Drive, Dropbox, journal page) if you're linking out instead."
   },
 
   {
-    "id": "sample-002",
-    "title": "Community engagement in research in sub-Saharan Africa: approaches, barriers, facilitators, ethical considerations and the role of gender - a systematic review protocol",
-    "authors": "Akondeng et al",
+    "id": "02",
+    "title": "Community engagement in research in sub-Saharan Africa: current practices, barriers, facilitators, ethical considerations and the role of gender - a systematic review",
+    "authors": "Bain et al",
     "year": 2022,
     "domain": "stakeholder",
     "type": "pdf",
     "tags": ["policy", "government", "coordination"],
-    "description": "Placeholder description. Summarize in 1-2 sentences why this paper is relevant to the proposal (methods, findings, or framework it offers).",
-    "link": "papers/Akodeng et al 2022 Community engagement in research in sub-Saharan Africa_approaches, barriers, facilitators, ethical considerations and the role of gender – a systematic review protocol.pdf",
-    "source_note": "Replace 'link' with a relative path (papers/filename.pdf) if you upload the file into the /papers folder, OR a direct URL (Google Drive, Dropbox, journal page) if you're linking out instead."
+    "link": "papers/Bain et al 2022 Community engagement in research in sub-Saharan Africa- current practices, barriers, facilitators, ethical considerations and the role of gender - a systematic review.pdf",
+    "source_note": "pdf"
   },
 
+   {
+    "id": "03",
+    "title": "Evaluating community engagement in global health research: the need for metrics",
+    "authors": "McQueen et al",
+    "year": 2015,
+    "domain": "stakeholder",
+    "type": "pdf",
+    "tags": ["policy", "government", "coordination"],
+    "link": "papers/McQueen et al 2015 Evaluating community engagement in global health research_the need for metric.pdf",
+    "source_note": "pdf"
+  },
 
+  {
+    "id": "04",
+    "title": "Community engagement processes in low- and middle-income countries health research settings: a systematic review of the literature",
+    "authors": "Mthembu et al",
+    "year": 2023,
+    "domain": "stakeholder",
+    "type": "pdf",
+    "tags": ["policy", "government", "coordination"],
+    "link": "papers/Mthembu et al 2023_ Community engagement processes in low- and middle-income countries health research settings_a systematic review of the literature.pdf",
+    "source_note": "pdf"
+  },
 
+  {
+    "id": "05",
+    "title": "Procedural legitimacy: co-developing a community agreement model for genetic approaches research to malaria control in Africa",
+    "authors": "Sykes et al",
+    "year": 2024,
+    "domain": "stakeholder",
+    "type": "pdf",
+    "tags": ["policy", "government", "coordination"],
+    "link": "papers/Sykes et al 2024. Procedural legitimacy_co-developing a community agreement model for genetic approaches research to malaria control in Africa (2024).pdf",
+    "source_note": "pdf"
+  },
 
-
-
+  {
+    "id": "06",
+    "title": "Strengthening community protection and resilience: regional strategy for community engagement, 2023–2030 in the WHO African region",
+    "authors": "WHO AFRO",
+    "year": 2023,
+    "domain": "stakeholder",
+    "type": "pdf",
+    "tags": ["policy", "government", "coordination"],
+    "description": " ",
+    "link": "papers/WHO AFRO 2023_Strengthening community protection and resilience regional strategy for community engagement, 2023–2030 in the WHO African region.pdf",
+    "source_note": "pdf"
+  },
 
 
 
@@ -39,27 +80,294 @@
 
   
   {
-    "id": "sample-002",
-    "title": "SAMPLE ENTRY \u2014 replace me: Frameworks for Cross-Border Health Data Sharing",
-    "authors": "Mwangi, A. et al.",
+    "id": "07",
+    "title": "African Union 2022 AU Data Policy Framework",
+    "authors": "African Union",
     "year": 2022,
     "domain": "data_stewardship",
     "type": "link",
     "tags": ["data governance", "interoperability", "privacy"],
-    "description": "Placeholder description.",
-    "link": "https://example.org/paper-link",
-    "source_note": "External link example."
+    "description": " ",
+    "link": "papers/African Union 2022 AU Data Policy Framework.pdf",
+    "source_note": "pdf"
   },
+
   {
-    "id": "sample-003",
-    "title": "SAMPLE ENTRY \u2014 replace me: Integrating DHIS2 Facility Data with National Systems",
-    "authors": "Nakamura, R.",
-    "year": 2024,
+    "id": "08",
+    "title": "Africa CDC and the International Association of National Public Health Institutes _ Framework for Development of National Public Health Institutes in Africa",
+    "authors": "African Union",
+    "year": 2022,
+    "domain": "data_stewardship",
+    "type": "link",
+    "tags": ["data governance", "interoperability", "privacy"],
+    "description": " ",
+    "link": "papers/Africa CDC and the International Association of National Public Health Institutes _ Framework for Development of National Public Health Institutes in Africa.pdf",
+    "source_note": "pdf"
+  },
+
+  {
+    "id": "09",
+    "title": "Gene Drives for Malaria Control and Elimination in Africa - 1st Edition",
+    "authors": "African Union - NEPAD",
+    "year": 2022,
+    "domain": "data_stewardship",
+    "type": "link",
+    "tags": ["data governance", "interoperability", "privacy"],
+    "description": " ",
+    "link": "papers/AU-NEPAD - Gene Drives for Malaria Control and Elimination in Africa.pdf",
+    "source_note": "pdf"
+  },
+
+  {
+    "id": "10",
+    "title": "Gene Drives for Malaria Control and Elimination in Africa - 2nd Edition",
+    "authors": "African Union - NEPAD",
+    "year": 2022,
+    "domain": "data_stewardship",
+    "type": "link",
+    "tags": ["data governance", "interoperability", "privacy"],
+    "description": " ",
+    "link": "papers/AU-NEPAD - Gene Drives for Malaria Control and Elimination in Africa - ED2.pdf",
+    "source_note": "pdf"
+  },
+
+  {
+    "id": "11",
+    "title": "The CARE Principles for Indigenous Data Governance",
+    "authors": "Carroll et al",
+    "year": 2020,
+    "domain": "data_stewardship",
+    "type": "link",
+    "tags": ["data governance", "interoperability", "privacy"],
+    "description": " ",
+    "link": "papers/Carroll et al. 2020 The CARE Principles for Indigenous Data Governance.pdf",
+    "source_note": "pdf"
+  },
+
+  {
+    "id": "12",
+    "title": "H3Africa_Consortium-Data Access Release Policy",
+    "authors": "H3Africa Consortium",
+    "year": 2020,
+    "domain": "data_stewardship",
+    "type": "link",
+    "tags": ["data governance", "interoperability", "privacy"],
+    "description": " ",
+    "link": "papers/H3Africa_Consortium-Data Access Release Policy April 2020.pdf",
+    "source_note": "pdf"
+  },
+
+  {
+    "id": "13",
+    "title": "MEASURE 2017 Routine Health Information Systems: A Curriculum on Basic Concepts and Practice - Syllabus",
+    "authors": "MEASURE Evaluation",
+    "year": 2017,
+    "domain": "data_stewardship",
+    "type": "link",
+    "tags": ["data governance", "interoperability", "privacy"],
+    "description": " ",
+    "link": "papers/MEASURE 2017 Routine Health Information Systems_A Curriculum on Basic Concepts and Practice - Syllabus.pdf",
+    "source_note": "pdf"
+  },
+
+  {
+    "id": "14",
+    "title": "Gene Drives on the Horizon: Advancing Science, Navigating Uncertainty, and Aligning Research with Public Values - See Chapter 7",
+    "authors": "National Academies of Sciences, Engineering, and Medicine",
+    "year": 2016,
+    "domain": "data_stewardship",
+    "type": "link",
+    "tags": ["data governance", "interoperability", "privacy"],
+    "description": " ",
+    "link": "papers/National Academies of Sciences, Engineering, and Medicine. 2016. Gene Drives on the Horizon - See Chapter 7.pdf",
+    "source_note": "pdf"
+  },
+
+  {
+    "id": "15",
+    "title": "Analysis and use of health facility data - General principles",
+    "authors": "WHO",
+    "year": 2018,
+    "domain": "data_stewardship",
+    "type": "link",
+    "tags": ["data governance", "interoperability", "privacy"],
+    "description": " ",
+    "link": "papers/WHO 2019 Analysis and use of health facility data - General principles.pdf",
+    "source_note": "pdf"
+  },
+
+  {
+    "id": "16",
+    "title": "Analysis and use of health facility data - Guidance for national and district planners and managers",
+    "authors": "WHO",
+    "year": 2019,
+    "domain": "data_stewardship",
+    "type": "link",
+    "tags": ["data governance", "interoperability", "privacy"],
+    "description": " ",
+    "link": "papers/WHO 2019 Analysis and use of health facility data - Guidance for national and district planners and managers.pdf",
+    "source_note": "pdf"
+  },
+
+  {
+    "id": "17",
+    "title": "Toolkit for routine health facilities data analysis and indicators",
+    "authors": "WHO",
+    "year": 2021,
+    "domain": "data_stewardship",
+    "type": "link",
+    "tags": ["data governance", "interoperability", "privacy"],
+    "description": " ",
+    "link": "papers/WHO 2021 Toolkit for routine health faclities data analysis and indicators.pdf",
+    "source_note": "pdf"
+  },
+
+  {
+    "id": "18",
+    "title": "Technical Guidelines- Integrated Disease Surveillance and Response in the African Region",
+    "authors": "WHO & CDC",
+    "year": 2010,
+    "domain": "data_stewardship",
+    "type": "link",
+    "tags": ["data governance", "interoperability", "privacy"],
+    "description": " ",
+    "link": "papers/WHO & CDC 2010 Technical Guidelines- Integrated Disease Surveillance and Response in the African Region.pdf",
+    "source_note": "pdf"
+  },
+
+  {
+    "id": "19",
+    "title": "Framework for strengthening the use of evidence, information and research for policy-making in the African Region",
+    "authors": "WHO-AFRO",
+    "year": 2021,
+    "domain": "data_stewardship",
+    "type": "link",
+    "tags": ["data governance", "interoperability", "privacy"],
+    "description": " ",
+    "link": "papers/WHO-AFRO 2021_Framework for strengthening the use of evidence, information and research for policy-making in the African Region-2.pdf",
+    "source_note": "pdf"
+  },
+
+  {
+    "id": "20",
+    "title": "The FAIR Guiding Principles for scientific data management and stewardship",
+    "authors": "Wilkinson et al.",
+    "year": 2016,
+    "domain": "data_stewardship",
+    "type": "link",
+    "tags": ["data governance", "interoperability", "privacy"],
+    "description": " ",
+    "link": "papers/Wilkinson et al. 2016 The FAIR Guiding Principles for scientific data management and stewardship.pdf",
+    "source_note": "pdf"
+  },
+
+
+
+
+
+
+
+  {
+    "id": "21",
+    "title": "Routine data for malaria morbidity estimation in Africa: challenges and prospects",
+    "authors": "Alegana et al",
+    "year": 2020,
     "domain": "facility_integration",
     "type": "pdf",
     "tags": ["DHIS2", "facility data", "interoperability"],
-    "description": "Placeholder description.",
-    "link": "papers/sample-003.pdf",
-    "source_note": "Delete these three sample entries once you add real ones."
+    "description": " ",
+    "link": "Routine data for malaria morbidity estimation in Africa: challenges and prospects.pdf",
+    "source_note": "pdf"
+  },
+
+  {
+    "id": "22",
+    "title": "The INDEPTH Data Repository: An international resource for longitudinal population and health data from health and demographic surveillance systems",
+    "authors": "Herbst et al",
+    "year": 2015,
+    "domain": "facility_integration",
+    "type": "pdf",
+    "tags": ["DHIS2", "facility data", "interoperability"],
+    "description": " ",
+    "link": "Herbst et al 2015. The INDEPTH Data Repository-An international resource for longitudinal population and health data from health and demographic surveillance systems.pdf",
+    "source_note": "pdf"
+  },
+
+  {
+    "id": "23",
+    "title": "The TRUST Principles for digital repositories",
+    "authors": "Lin et al",
+    "year": 2020,
+    "domain": "facility_integration",
+    "type": "pdf",
+    "tags": ["DHIS2", "facility data", "interoperability"],
+    "description": " ",
+    "link": "Lin et al 2020 The TRUST Principles for digital repositories.pdf",
+    "source_note": "pdf"
+  },
+
+  {
+    "id": "24",
+    "title": "The use of routine health facility data for micro-stratification of malaria risk in mainland Tanzania",
+    "authors": "Thawer et al",
+    "year": 2022,
+    "domain": "facility_integration",
+    "type": "pdf",
+    "tags": ["DHIS2", "facility data", "interoperability"],
+    "description": " ",
+    "link": "Thawer et al 2022 The use of routine health facility data for micro-stratification of malaria risk in mainland Tanzania.pdf",
+    "source_note": "pdf"
+  },
+
+  {
+    "id": "25",
+    "title": "Analysis and use of health facility data - Core Indicators",
+    "authors": "WHO",
+    "year": 2019,
+    "domain": "facility_integration",
+    "type": "pdf",
+    "tags": ["DHIS2", "facility data", "interoperability"],
+    "description": " ",
+    "link": "WHO 2019 Analysis and use of health facility data - Core Indicators.pdf",
+    "source_note": "pdf"
+  },
+
+  {
+    "id": "26",
+    "title": "Guidance on establishing a National Malaria Data Repository, Version 1.0",
+    "authors": "WHO",
+    "year": 2025,
+    "domain": "facility_integration",
+    "type": "pdf",
+    "tags": ["DHIS2", "facility data", "interoperability"],
+    "description": " ",
+    "link": "WHO 2025 Guidance on establishing a National Malaria Data Repository, Version 1.0.pdf",
+    "source_note": "pdf"
+  },
+
+  {
+    "id": "27",
+    "title": "DHIS2-based entomology and vector control data collection and collation tools",
+    "authors": "WHO",
+    "year": 2026,
+    "domain": "facility_integration",
+    "type": "pdf",
+    "tags": ["DHIS2", "facility data", "interoperability"],
+    "description": " ",
+    "link": "WHO DHIS2-based entomology and vector control data collection and collation tools.pdf",
+    "source_note": "pdf"
+  },
+
+  {
+    "id": "28",
+    "title": "WHO Digital solutions for malaria surveillance -DHIS2 and NMDR",
+    "authors": "WHO",
+    "year": 2026,
+    "domain": "facility_integration",
+    "type": "pdf",
+    "tags": ["DHIS2", "facility data", "interoperability"],
+    "description": " ",
+    "link": "WHO Digital solutions for malaria surveillance -DHIS2 and NMDR.pdf",
+    "source_note": "pdf"
   }
 ]
