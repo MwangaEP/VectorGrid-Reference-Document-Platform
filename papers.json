@@ -73,6 +73,45 @@
     "source_note": "pdf"
   },
 
+  {
+    "id": "07",
+    "title": "Gene Drives for Malaria Control and Elimination in Africa - 1st Edition",
+    "authors": "African Union - NEPAD",
+    "year": 2022,
+    "domain": "stakeholder",
+    "type": "pdf",
+    "tags": ["data governance", "interoperability", "privacy"],
+    "description": " ",
+    "link": "papers/AU-NEPAD - Gene Drives for Malaria Control and Elimination in Africa.pdf",
+    "source_note": "pdf"
+  },
+
+  {
+    "id": "08",
+    "title": "Gene Drives for Malaria Control and Elimination in Africa - 2nd Edition",
+    "authors": "African Union - NEPAD",
+    "year": 2022,
+    "domain": "stakeholder",
+    "type": "pdf",
+    "tags": ["data governance", "interoperability", "privacy"],
+    "description": " ",
+    "link": "papers/AU-NEPAD - Gene Drives for Malaria Control and Elimination in Africa - ED2.pdf",
+    "source_note": "pdf"
+  },
+
+  {
+    "id": "09",
+    "title": "Gene Drives on the Horizon: Advancing Science, Navigating Uncertainty, and Aligning Research with Public Values - See Chapter 7",
+    "authors": "National Academies of Sciences, Engineering, and Medicine",
+    "year": 2016,
+    "domain": "stakeholder",
+    "type": "pdf",
+    "tags": ["data governance", "interoperability", "privacy"],
+    "description": " ",
+    "link": "papers/National Academies of Sciences, Engineering, and Medicine. 2016. Gene Drives on the Horizon - See Chapter 7.pdf",
+    "source_note": "pdf"
+  },
+
 
 
 
@@ -80,7 +119,7 @@
 
   
   {
-    "id": "07",
+    "id": "10",
     "title": "African Union 2022 AU Data Policy Framework",
     "authors": "African Union",
     "year": 2022,
@@ -93,7 +132,7 @@
   },
 
   {
-    "id": "08",
+    "id": "11",
     "title": "Africa CDC and the International Association of National Public Health Institutes _ Framework for Development of National Public Health Institutes in Africa",
     "authors": "African Union",
     "year": 2022,
@@ -106,33 +145,7 @@
   },
 
   {
-    "id": "09",
-    "title": "Gene Drives for Malaria Control and Elimination in Africa - 1st Edition",
-    "authors": "African Union - NEPAD",
-    "year": 2022,
-    "domain": "data_stewardship",
-    "type": "pdf",
-    "tags": ["data governance", "interoperability", "privacy"],
-    "description": " ",
-    "link": "papers/AU-NEPAD - Gene Drives for Malaria Control and Elimination in Africa.pdf",
-    "source_note": "pdf"
-  },
-
-  {
-    "id": "10",
-    "title": "Gene Drives for Malaria Control and Elimination in Africa - 2nd Edition",
-    "authors": "African Union - NEPAD",
-    "year": 2022,
-    "domain": "data_stewardship",
-    "type": "pdf",
-    "tags": ["data governance", "interoperability", "privacy"],
-    "description": " ",
-    "link": "papers/AU-NEPAD - Gene Drives for Malaria Control and Elimination in Africa - ED2.pdf",
-    "source_note": "pdf"
-  },
-
-  {
-    "id": "11",
+    "id": "12",
     "title": "The CARE Principles for Indigenous Data Governance",
     "authors": "Carroll et al",
     "year": 2020,
@@ -145,7 +158,7 @@
   },
 
   {
-    "id": "12",
+    "id": "13",
     "title": "H3Africa_Consortium-Data Access Release Policy",
     "authors": "H3Africa Consortium",
     "year": 2020,
@@ -158,7 +171,7 @@
   },
 
   {
-    "id": "13",
+    "id": "14",
     "title": "MEASURE 2017 Routine Health Information Systems: A Curriculum on Basic Concepts and Practice - Syllabus",
     "authors": "MEASURE Evaluation",
     "year": 2017,
@@ -170,18 +183,6 @@
     "source_note": "pdf"
   },
 
-  {
-    "id": "14",
-    "title": "Gene Drives on the Horizon: Advancing Science, Navigating Uncertainty, and Aligning Research with Public Values - See Chapter 7",
-    "authors": "National Academies of Sciences, Engineering, and Medicine",
-    "year": 2016,
-    "domain": "data_stewardship",
-    "type": "pdf",
-    "tags": ["data governance", "interoperability", "privacy"],
-    "description": " ",
-    "link": "papers/National Academies of Sciences, Engineering, and Medicine. 2016. Gene Drives on the Horizon - See Chapter 7.pdf",
-    "source_note": "pdf"
-  },
 
   {
     "id": "15",
@@ -261,6 +262,32 @@
     "source_note": "pdf"
   },
 
+  {
+    "id": "21",
+    "title": "The TRUST Principles for digital repositories",
+    "authors": "Lin et al",
+    "year": 2020,
+    "domain": "data_stewardship",
+    "type": "pdf",
+    "tags": ["DHIS2", "facility data", "interoperability"],
+    "description": " ",
+    "link": "papers/Lin et al 2020 The TRUST Principles for digital repositories.pdf",
+    "source_note": "pdf"
+  },
+
+  {
+    "id": "22",
+    "title": "Guidance on establishing a National Malaria Data Repository, Version 1.0",
+    "authors": "WHO",
+    "year": 2025,
+    "domain": "data_stewardship",
+    "type": "pdf",
+    "tags": ["DHIS2", "facility data", "interoperability"],
+    "description": " ",
+    "link": "papers/WHO 2025 Guidance on establishing a National Malaria Data Repository, Version 1.0.pdf",
+    "source_note": "pdf"
+  },
+
 
 
 
@@ -268,7 +295,7 @@
 
 
   {
-    "id": "21",
+    "id": "23",
     "title": "Routine data for malaria morbidity estimation in Africa: challenges and prospects",
     "authors": "Alegana et al",
     "year": 2020,
@@ -276,12 +303,12 @@
     "type": "pdf",
     "tags": ["DHIS2", "facility data", "interoperability"],
     "description": " ",
-    "link": "Routine data for malaria morbidity estimation in Africa: challenges and prospects.pdf",
+    "link": "papers/Routine data for malaria morbidity estimation in Africa: challenges and prospects.pdf",
     "source_note": "pdf"
   },
 
   {
-    "id": "22",
+    "id": "24",
     "title": "The INDEPTH Data Repository: An international resource for longitudinal population and health data from health and demographic surveillance systems",
     "authors": "Herbst et al",
     "year": 2015,
@@ -289,25 +316,13 @@
     "type": "pdf",
     "tags": ["DHIS2", "facility data", "interoperability"],
     "description": " ",
-    "link": "Herbst et al 2015. The INDEPTH Data Repository-An international resource for longitudinal population and health data from health and demographic surveillance systems.pdf",
+    "link": "papers/Herbst et al 2015. The INDEPTH Data Repository-An international resource for longitudinal population and health data from health and demographic surveillance systems.pdf",
     "source_note": "pdf"
   },
 
-  {
-    "id": "23",
-    "title": "The TRUST Principles for digital repositories",
-    "authors": "Lin et al",
-    "year": 2020,
-    "domain": "facility_integration",
-    "type": "pdf",
-    "tags": ["DHIS2", "facility data", "interoperability"],
-    "description": " ",
-    "link": "Lin et al 2020 The TRUST Principles for digital repositories.pdf",
-    "source_note": "pdf"
-  },
 
   {
-    "id": "24",
+    "id": "25",
     "title": "The use of routine health facility data for micro-stratification of malaria risk in mainland Tanzania",
     "authors": "Thawer et al",
     "year": 2022,
@@ -315,12 +330,12 @@
     "type": "pdf",
     "tags": ["DHIS2", "facility data", "interoperability"],
     "description": " ",
-    "link": "Thawer et al 2022 The use of routine health facility data for micro-stratification of malaria risk in mainland Tanzania.pdf",
+    "link": "papers/Thawer et al 2022 The use of routine health facility data for micro-stratification of malaria risk in mainland Tanzania.pdf",
     "source_note": "pdf"
   },
 
   {
-    "id": "25",
+    "id": "26",
     "title": "Analysis and use of health facility data - Core Indicators",
     "authors": "WHO",
     "year": 2019,
@@ -328,20 +343,7 @@
     "type": "pdf",
     "tags": ["DHIS2", "facility data", "interoperability"],
     "description": " ",
-    "link": "WHO 2019 Analysis and use of health facility data - Core Indicators.pdf",
-    "source_note": "pdf"
-  },
-
-  {
-    "id": "26",
-    "title": "Guidance on establishing a National Malaria Data Repository, Version 1.0",
-    "authors": "WHO",
-    "year": 2025,
-    "domain": "facility_integration",
-    "type": "pdf",
-    "tags": ["DHIS2", "facility data", "interoperability"],
-    "description": " ",
-    "link": "WHO 2025 Guidance on establishing a National Malaria Data Repository, Version 1.0.pdf",
+    "link": "papers/WHO 2019 Analysis and use of health facility data - Core Indicators.pdf",
     "source_note": "pdf"
   },
 
@@ -354,7 +356,7 @@
     "type": "pdf",
     "tags": ["DHIS2", "facility data", "interoperability"],
     "description": " ",
-    "link": "WHO DHIS2-based entomology and vector control data collection and collation tools.pdf",
+    "link": "papers/WHO DHIS2-based entomology and vector control data collection and collation tools.pdf",
     "source_note": "pdf"
   },
 
@@ -367,7 +369,7 @@
     "type": "pdf",
     "tags": ["DHIS2", "facility data", "interoperability"],
     "description": " ",
-    "link": "WHO Digital solutions for malaria surveillance -DHIS2 and NMDR.pdf",
+    "link": "papers/WHO Digital solutions for malaria surveillance -DHIS2 and NMDR.pdf",
     "source_note": "pdf"
   }
 ]
