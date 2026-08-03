@@ -1,16 +1,30 @@
 [
+
   {
     "id": "sample-001",
-    "title": "SAMPLE ENTRY \u2014 replace me: Engaging Ministries of Health in National Data Policy",
-    "authors": "Doe, J. & Kim, S.",
-    "year": 2023,
+    "title": "Community engagement in research in sub-Saharan Africa: approaches, barriers, facilitators, ethical considerations and the role of gender - a systematic review protocol",
+    "authors": "Akondeng et al",
+    "year": 2022,
     "domain": "stakeholder",
     "type": "pdf",
     "tags": ["policy", "government", "coordination"],
     "description": "Placeholder description. Summarize in 1-2 sentences why this paper is relevant to the proposal (methods, findings, or framework it offers).",
-    "link": "papers/sample-001.pdf",
+    "link": "papers/Akodeng et al 2022 Community engagement in research in sub-Saharan Africa_approaches, barriers, facilitators, ethical considerations and the role of gender – a systematic review protocol.pdf",
     "source_note": "Replace 'link' with a relative path (papers/filename.pdf) if you upload the file into the /papers folder, OR a direct URL (Google Drive, Dropbox, journal page) if you're linking out instead."
   },
+
+
+
+
+
+
+
+
+
+
+
+
+  
   {
     "id": "sample-002",
     "title": "SAMPLE ENTRY \u2014 replace me: Frameworks for Cross-Border Health Data Sharing",
