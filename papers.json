@@ -80,7 +80,7 @@
     "year": 2022,
     "domain": "stakeholder",
     "type": "pdf",
-    "tags": ["data governance", "interoperability", "privacy"],
+    "tags": ["policy", "government", "coordination"],
     "description": " ",
     "link": "papers/AU-NEPAD - Gene Drives for Malaria Control and Elimination in Africa - ED1.pdf",
     "source_note": "pdf"
@@ -93,7 +93,7 @@
     "year": 2022,
     "domain": "stakeholder",
     "type": "pdf",
-    "tags": ["data governance", "interoperability", "privacy"],
+    "tags": ["policy", "government", "coordination"],
     "description": " ",
     "link": "papers/AU-NEPAD - Gene Drives for Malaria Control and Elimination in Africa - ED 2.pdf",
     "source_note": "pdf"
@@ -106,11 +106,24 @@
     "year": 2016,
     "domain": "stakeholder",
     "type": "pdf",
-    "tags": ["data governance", "interoperability", "privacy"],
+    "tags": ["policy", "government", "coordination"],
     "description": " ",
     "link": "papers/National Academies of Sciences, Engineering, and Medicine. 2016. Gene Drives on the Horizon - See Chapter 7.pdf",
     "source_note": "pdf"
   },
+
+  {
+    "id": "10",
+    "title": "Country ownership in global health",
+    "authors": "Noor",
+    "year": 2022,
+    "domain": "stakeholder",
+    "type": "pdf",
+    "tags": ["policy", "government", "coordination"],
+    "description": " ",
+    "link": "papers/Noor 2022 - Country ownership in global health.pdf",
+    "source_note": "pdf"
+  }
 
 
 
@@ -119,7 +132,7 @@
 
   
   {
-    "id": "10",
+    "id": "11",
     "title": "African Union 2022 AU Data Policy Framework",
     "authors": "African Union",
     "year": 2022,
@@ -132,7 +145,7 @@
   },
 
   {
-    "id": "11",
+    "id": "12",
     "title": "Africa CDC and the International Association of National Public Health Institutes _ Framework for Development of National Public Health Institutes in Africa",
     "authors": "African Union",
     "year": 2022,
@@ -145,7 +158,7 @@
   },
 
   {
-    "id": "12",
+    "id": "13",
     "title": "The CARE Principles for Indigenous Data Governance",
     "authors": "Carroll et al",
     "year": 2020,
@@ -158,7 +171,7 @@
   },
 
   {
-    "id": "13",
+    "id": "14",
     "title": "H3Africa_Consortium-Data Access Release Policy",
     "authors": "H3Africa Consortium",
     "year": 2020,
@@ -171,7 +184,7 @@
   },
 
   {
-    "id": "14",
+    "id": "15",
     "title": "MEASURE 2017 Routine Health Information Systems: A Curriculum on Basic Concepts and Practice - Syllabus",
     "authors": "MEASURE Evaluation",
     "year": 2017,
@@ -185,7 +198,7 @@
 
 
   {
-    "id": "15",
+    "id": "16",
     "title": "Analysis and use of health facility data - General principles",
     "authors": "WHO",
     "year": 2018,
@@ -198,7 +211,7 @@
   },
 
   {
-    "id": "16",
+    "id": "17",
     "title": "Analysis and use of health facility data - Guidance for national and district planners and managers",
     "authors": "WHO",
     "year": 2019,
@@ -211,7 +224,7 @@
   },
 
   {
-    "id": "17",
+    "id": "18",
     "title": "Toolkit for routine health facilities data analysis and indicators",
     "authors": "WHO",
     "year": 2021,
@@ -224,7 +237,7 @@
   },
 
   {
-    "id": "18",
+    "id": "19",
     "title": "Technical Guidelines- Integrated Disease Surveillance and Response in the African Region",
     "authors": "WHO & CDC",
     "year": 2010,
@@ -237,7 +250,7 @@
   },
 
   {
-    "id": "19",
+    "id": "20",
     "title": "Framework for strengthening the use of evidence, information and research for policy-making in the African Region",
     "authors": "WHO-AFRO",
     "year": 2021,
@@ -250,7 +263,7 @@
   },
 
   {
-    "id": "20",
+    "id": "21",
     "title": "The FAIR Guiding Principles for scientific data management and stewardship",
     "authors": "Wilkinson et al.",
     "year": 2016,
@@ -263,26 +276,26 @@
   },
 
   {
-    "id": "21",
+    "id": "22",
     "title": "The TRUST Principles for digital repositories",
     "authors": "Lin et al",
     "year": 2020,
     "domain": "data_stewardship",
     "type": "pdf",
-    "tags": ["DHIS2", "facility data", "interoperability"],
+    "tags": ["data governance", "interoperability", "privacy"],
     "description": " ",
     "link": "papers/Lin et al 2020 The TRUST Principles for digital repositories.pdf",
     "source_note": "pdf"
   },
 
   {
-    "id": "22",
+    "id": "23",
     "title": "Guidance on establishing a National Malaria Data Repository, Version 1.0",
     "authors": "WHO",
     "year": 2025,
     "domain": "data_stewardship",
     "type": "pdf",
-    "tags": ["DHIS2", "facility data", "interoperability"],
+    "tags": ["data governance", "interoperability", "privacy"],
     "description": " ",
     "link": "papers/WHO 2025 Guidance on establishing a National Malaria Data Repository, Version 1.0.pdf",
     "source_note": "pdf"
@@ -295,7 +308,7 @@
 
 
   {
-    "id": "23",
+    "id": "24",
     "title": "Routine data for malaria morbidity estimation in Africa: challenges and prospects",
     "authors": "Alegana et al",
     "year": 2020,
@@ -308,7 +321,7 @@
   },
 
   {
-    "id": "24",
+    "id": "25",
     "title": "The INDEPTH Data Repository: An international resource for longitudinal population and health data from health and demographic surveillance systems",
     "authors": "Herbst et al",
     "year": 2015,
@@ -322,7 +335,7 @@
 
 
   {
-    "id": "25",
+    "id": "26",
     "title": "The use of routine health facility data for micro-stratification of malaria risk in mainland Tanzania",
     "authors": "Thawer et al",
     "year": 2022,
@@ -335,7 +348,7 @@
   },
 
   {
-    "id": "26",
+    "id": "27",
     "title": "Analysis and use of health facility data - Core Indicators",
     "authors": "WHO",
     "year": 2019,
@@ -348,7 +361,7 @@
   },
 
   {
-    "id": "27",
+    "id": "28",
     "title": "DHIS2-based entomology and vector control data collection and collation tools",
     "authors": "WHO",
     "year": 2026,
@@ -361,7 +374,7 @@
   },
 
   {
-    "id": "28",
+    "id": "29",
     "title": "WHO Digital solutions for malaria surveillance -DHIS2 and NMDR",
     "authors": "WHO",
     "year": 2026,
@@ -371,20 +384,6 @@
     "description": " ",
     "link": "papers/WHO Digital solutions for malaria surveillance -DHIS2 and NMDR.pdf",
     "source_note": "pdf"
-  },
-
-  {
-    "id": "29",
-    "title": "Country ownership in global health",
-    "authors": "Noor",
-    "year": 2022,
-    "domain": "facility_integration",
-    "type": "pdf",
-    "tags": ["DHIS2", "facility data", "interoperability"],
-    "description": " ",
-    "link": "papers/Noor 2022 - Country ownership in global health.pdf",
-    "source_note": "pdf"
   }
-
 
 ]
